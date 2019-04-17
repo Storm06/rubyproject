@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20190412160915) do
 
-  create_table "cars", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4" do |t|
+  create_table "cars", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "make"
     t.string   "model"
     t.integer  "year"

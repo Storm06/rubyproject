@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+/*
+ *= require simple_calendar
+ */
+
+ 
+
+    .today {
+        background-color: yellow;
+    }
+    .past {
+        background-color: red;
+    }
+    .future {
+        background-color: lightskyblue;
+    }
